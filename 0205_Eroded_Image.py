@@ -23,7 +23,7 @@ imgCanny = cv2.Canny(img, 200, 200)
 imgDilation = cv2.dilate(imgCanny, kernel, iterations = 1)
 
 # Making Eroded Image
-imgEroded = cv2.erode(imgDialation, kernel, iterations=1)
+imgEroded = cv2.erode(imgDilation, kernel, iterations=1)
 
 # Displaying the images
 cv2.imshow("Dilation image", imgDilation)
