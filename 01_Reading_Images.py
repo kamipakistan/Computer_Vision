@@ -15,5 +15,5 @@ cv2.imshow("Output", img)
 
 # without delay the image can not show
 # 1000 = 1 Sec
-cv2.waitKey(8000)
+cv2.waitKey(0)
 
