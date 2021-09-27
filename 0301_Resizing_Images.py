@@ -23,3 +23,5 @@ cv2.waitKey(0)
 # Displaying The Shapes of the images
 print(img.shape)
 print(imgResize.shape)
+
+
