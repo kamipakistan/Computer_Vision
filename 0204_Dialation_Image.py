@@ -27,3 +27,5 @@ cv2.imshow("Canny Image", imgCanny)
 cv2.imshow("Dilation", imgDilation)
 
 cv2.waitKey(0)
+
+
