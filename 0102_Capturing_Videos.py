@@ -1,6 +1,6 @@
 
-# ################################################################
-# ################ COMPUTER VISION CHAPTER 1 #####################
+# ###############################################################
+# ################ COMPUTER VISION CHAPTER 1 ####################
 
 # ##################### Capturing images #####################
 
@@ -22,5 +22,3 @@ while True:
     # the images will continuously showing until we press q
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
-
-
