@@ -18,3 +18,4 @@ imgCanny = cv2.Canny(img, 100, 100)
 cv2.imshow("Original", img)
 cv2.imshow("Canny", imgCanny)
 cv2.waitKey(0)
+
