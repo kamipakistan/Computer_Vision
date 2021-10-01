@@ -10,7 +10,7 @@ import cv2
 
 
 # Defining Rescaling function
-def rescalingImg(img, scale=0.75):
+def rescalingImg(img, scale = 0.75):
     width = int(img.shape[1] * scale)
     height = int(img.shape[0] * scale)
     return cv2.resize(img, (width, height))
