@@ -5,10 +5,14 @@
 # ##################### FACE RECOGNITION #########################
 # ################################################################
 
+# Importing Necessary libraries
 import numpy as np
 import os
 import cv2
 import face_recognition
+
+# ############################## Step 1 ###########################
+# ######## Loading The Images and Names from its Directory ########
 
 path = "faces"
 images = []
@@ -37,7 +41,8 @@ print("Encoding Started...")
 encodeListKnown = imgEncoding(images)
 print("Encoding Complete")
 
-# #####################  Step 3  ###########################
+
+# #################################  Step 3  ##################################
 # #################### Find the Matches between our Encodings #################
 
 cap = cv2.VideoCapture(0)
