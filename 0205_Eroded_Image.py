@@ -3,7 +3,7 @@
 # ################ COMPUTER VISION CHAPTER 2 #####################
 # ##################### BASIC FUNCTIONS ##########################
 
-# ################## ERODED IMAGE #############################
+# ################## ERODED IMAGE ###############################
 # Opposite of the Dilation (Decrease The edges)
 
 import cv2
