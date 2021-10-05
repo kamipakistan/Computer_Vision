@@ -1,9 +1,9 @@
 
-# ################################################################
-# ################ COMPUTER VISION CHAPTER 3 #####################
-# ############## RESIZING AND CROPPING OF IMAGES #################
+# ###############################################################
+# ################ COMPUTER VISION CHAPTER 3 ####################
+# ############## RESIZING AND CROPPING OF IMAGES ################
 
-# ################## CROPPING OF IMAGE ###########################
+# ################## CROPPING OF IMAGE ##########################
 
 # For cropping we do not need the cv2 functions,
 # Image is an 2D Array we just limit its size of the Row and columns
