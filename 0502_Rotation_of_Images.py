@@ -22,5 +22,3 @@ rotated = imgRotation(img, 90)
 cv2.imshow("Rotated Image", rotated)
 cv2.imshow("Image", img)
 cv2.waitKey(0)
-
-
