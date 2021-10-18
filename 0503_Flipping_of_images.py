@@ -18,3 +18,4 @@ flip = cv2.flip(img, 1)
 cv2.imshow("Flipped Image", flip)
 cv2.imshow("Image", img)
 cv2.waitKey(0)
+
